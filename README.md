@@ -10,3 +10,11 @@ home directory exists and belongs to the correct owner and group. Any non-compli
 should be logged in ``/tmp/auth_errors``.
 
 🔗 [check_server_users.sh](check_server_users.sh)
+
+## Ping sweeper
+
+Iterates over a file divided into lines with IPs in each one and returns a list with the sum of active,
+inactive and invalid IPs, named ``reachability_test.txt``. Run script using ``sh ./ping_sweeper <filename>``
+where <filename> is the path to file with the IPs.
+
+🔗 [ping_sweeper.sh](ping_sweeper.sh)

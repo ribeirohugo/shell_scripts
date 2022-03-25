@@ -38,4 +38,4 @@ and it will be stored in ``scan_report.txt`` file.
 
 ## Git Backup
 
-More details: 🔗 [git_backup](git_backup)
+More details: 🔗 [git_backups](git_backups)

@@ -5,6 +5,9 @@ output_file="backups"
 
 printf "Git Backup started\n\n"
 
+printf "Checking zip dependency... \n\n"
+sudo apt install zip -y
+
 mkdir "$output_file"
 printf "File \"%s\" created\n\n" "$output_file"
 

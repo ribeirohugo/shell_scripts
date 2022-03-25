@@ -35,3 +35,7 @@ The output will a list with the active, inactive and invalid ports, based on res
 and it will be stored in ``scan_report.txt`` file.
 
 🔗 [port_scanner.sh](port_scanner.sh)
+
+## Git Backup
+
+More details: 🔗 [git_backups](git_backups)

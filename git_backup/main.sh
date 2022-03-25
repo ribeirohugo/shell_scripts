@@ -1,12 +1,18 @@
 #!/bin/bash
 
-file_repo="repos.txt"
 output_file="backups"
+
+file_repo=$1
+
+if [ "$file_repo" == "" ]
+then
+  file_repo="repos.txt"
+fi
 
 printf "Git Backup started\n\n"
 
-printf "Checking zip dependency... \n\n"
-sudo apt install zip -y
+printf "Checking dependencies... \n\n"
+apt install zip -y
 
 mkdir "$output_file"
 printf "File \"%s\" created\n\n" "$output_file"
